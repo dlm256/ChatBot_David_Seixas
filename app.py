@@ -14,9 +14,13 @@ def obter_resposta(texto: str) -> str:
             'tempo': 'Está um dia de sol!',
             ('bye', 'adeus', 'tchau'): 'Gostei de falar contigo! Até breve...',
             'historia de portugal': 'Portugal tem uma rica história...',
-            ('Que horas são?'): 'São:',
-            ('Que dia é hoje?'): 'Hoje é dia:',
-            
+            'Que horas são?': 'São:',
+            'Que dia é hoje?': 'Hoje é dia:',
+            'Estado da economia': 'Não vaz aí...',
+            'Padrões migratórios:': 'É uma questão de estudares.',
+            'Estação do ano:': 'Inverno:',
+            'Quantos Tios tens?': 'Nenhum',
+            'Nada:': 'Quem nada não se afoga!',
     }
 
     for chave, resposta in respostas.items():
